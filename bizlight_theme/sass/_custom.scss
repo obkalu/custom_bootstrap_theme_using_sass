@@ -1,0 +1,100 @@
+.navbar {
+  margin-bottom: 0;
+  a {
+    color: set-text-color($main-color) !important;
+  }
+
+  .fa {
+    font-size:18px;
+  }
+}
+
+.showcase {
+  background: url(../imgs/showcase.jpg) no-repeat 0 -180px;
+  height: 520px;
+  padding: 30px 0;
+
+  h1 {
+    font-size: 34px;
+  }
+
+  a {
+    color: set-text-color($main-color);
+  }
+  a:hover {
+    color: set-text-color($main-color);
+  }
+
+  .container {
+    background: #fff;
+    opacity: 0.8;
+    padding: 16px 20px 20px 20px;
+  }
+}
+
+.section-a {
+  padding: 20px 0;
+  text-align: center;
+  background: $main-color;
+  color: set-text-color($main-color);
+
+  .fa {
+    font-size: $icon-size;
+  }
+}
+
+.section-b {
+  background: #E6EBF1;
+  padding: 20px 0;
+
+  img {
+    width: 100%;
+  }
+}
+
+.panel h4 {
+  color: set-text-color($main-color);
+}
+
+.panel-body {
+  .well {
+    h4 {
+      color: $main-color;
+    }
+  }
+}
+
+.section-c {
+  padding: 40px 0;
+  text-align: center;
+  background: $main-color;
+  color: set-text-color($main-color);
+
+  .btn-primary {
+    background: darken($main-color, 10%);
+  }
+}
+
+.title-bar {
+  background: url(../imgs/showcase.jpg) no-repeat 0 -300px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid $main-color;
+  .container {
+    background: #e8e9ed;
+    opacity: 0.6;
+    h1 {
+      color: darken($main-color, 30%);
+    }
+  }
+}
+
+.main {
+  margin-top: 20px;
+}
+
+footer {
+  padding: 20px 0;
+  background: darken($main-color, 10%);
+  color: set-text-color($main-color);
+  text-align: center;
+}
